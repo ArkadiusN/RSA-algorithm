@@ -8,7 +8,7 @@
 
 RSA is a cryptographic algorithm commonly used by people to secure data transmission in different forms, such as card payments and private messages. Its strength relies on having a key that can be shared with the public and used for encryption, whereas another has to stay private to get the encrypted data back in its initial form. Keys, therefore, play a role as components of the [**trapdoor function**](https://en.wikipedia.org/wiki/Trapdoor_function). Accordingly, the keys could be used, in a reverse manner, since they apply principles of the [**inverse function**](https://en.wikipedia.org/wiki/Inverse_function).
 
-_<sub>Still not finding what you are looking for? Try the [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))!</sub>\_
+<sub>_Still not finding what you are looking for? Try the [Wikipedia](<https://en.wikipedia.org/wiki/RSA_(cryptosystem)>)!_</sub>
 
 #### Contents
 
