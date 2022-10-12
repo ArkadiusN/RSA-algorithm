@@ -1,4 +1,4 @@
-# RSA algorithm <img src="https://github.com/ArkadiusN/RSA-algorithm/blob/master/RSA_Image.PNG" height="90" align="left" style="margin-right:15px; border: 5px solid #181414" />
+# RSA algorithm <img src="RSA_Image.PNG" height="90" align="left" style="margin-right:15px; margin-bottom:19px; border: 5px solid #181414" />
 
 **&raquo; A public-key cryptographic algorithm** <br/><sub> _100% Java_ &middot; _Big Integer_ &middot; Simulator</sub>
 
@@ -8,7 +8,7 @@
 
 RSA is a cryptographic algorithm commonly used by people to secure data transmission in different forms, such as card payments and private messages. Its strength relies on having a key that can be shared with the public and used for encryption, whereas another has to stay private to get the encrypted data back in its initial form. Keys, therefore, play a role as components of the [**trapdoor function**](https://en.wikipedia.org/wiki/Trapdoor_function). Accordingly, the keys could be used, in a reverse manner, since they apply principles of the [**inverse function**](https://en.wikipedia.org/wiki/Inverse_function).
 
-_\*\*<sub>Still not finding what you are looking for? Try the [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))!</sub>\*\*\_
+_<sub>Still not finding what you are looking for? Try the [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))!</sub>\_
 
 #### Contents
 
@@ -21,12 +21,10 @@ _\*\*<sub>Still not finding what you are looking for? Try the [Wikipedia](https:
 
 ## 1 Getting RSA cryptosystem
 
----
-
 ### 1.1 Check if RSA can be executed
 
 To run the RSA algorithm you need to have installed [JDK](https://www.oracle.com/java/technologies/downloads/) on your machine.
-The version of the JDK to execute this program can be from version _15.0_, however, it might be necessary to have version _17.01_.
+The version of the JDK to execute this program can start from version _15.0_, however, it might be necessary to have version _17.01_.
 Check if you have the JDK installed by opening a terminal and typing :
 
 ```bash
@@ -34,8 +32,13 @@ javac -version
 java -version
 ```
 
-In case where a version was given back by the terminal you can execute the code
-but you might have to update it to 17.01 or higher.
+or
+
+```bash
+java -version && javac -version
+```
+
+In case where a version was given back by the terminal you can execute the code.
 
 <img src="https://github.com/ArkadiusN/RSA-algorithm/blob/master/CheckVersions.PNG" height="90" align="centre" style="border: 5px solid #181414"/>
 
@@ -67,8 +70,6 @@ _**<sub> Alternatively try Mac OS installation guide [Tutorial Mac OS](https://w
 <sub>[[Top 🢁](#contents)]</sub>
 
 ## 2 About the program
-
----
 
 ### 2.1 Main components
 
